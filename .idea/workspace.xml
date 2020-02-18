@@ -1,43 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="edeff728-c758-4006-99d1-a477354a6386" name="Default Changelist" comment="" />
+    <list default="true" id="2d61ee63-943c-4d49-83be-e01417174ad2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Famille_DO/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESTAURANTS/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESTAURANTS/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESTAURANTS/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESTAURANTS/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESTAURANTS/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESTAURANTS/templates/RESTAURANTS/restaurants.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESTAURANTS/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESTAURANTS/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESTAURANTS/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/fichiers/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/photo_alexandre_petit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Famille_DO/accueil.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/layout/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/layout/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/Activate.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/deactivate.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/python.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/python_d.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/pythonw_d.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Famille_DO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Famille_DO.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Famille_DO/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Famille_DO/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Famille_DO/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Famille_DO/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="1XFcHQ1vaXFCdgWFURgRkSBAKkr" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1XIalPncz0GvMMUzfwpu3vqRiU7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/RESTAURANTS" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\PROGRAMMATION\SITES_WEB\Famille_DO\RESTAURANTS\" />
+      <recent name="F:\PROGRAMMATION\SITES_WEB\Famille_DO\" />
+      <recent name="F:\PROGRAMMATION\SITES_WEB\Famille_DO\templates\" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="edeff728-c758-4006-99d1-a477354a6386" name="Default Changelist" comment="" />
-      <created>1580645195165</created>
+      <changelist id="2d61ee63-943c-4d49-83be-e01417174ad2" name="Default Changelist" comment="" />
+      <created>1580736212576</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1580645195165</updated>
+      <updated>1580736212576</updated>
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="437" y="234" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1580645525841">
+    <state x="-1851" y="103" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581350608149">
+      <screen x="-2560" y="-240" width="2048" height="1112" />
+    </state>
+    <state x="-1851" y="103" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.-240.1920.1160/-2560.-240.2048.1112@-2560.-240.2048.1112" timestamp="1581350608149" />
+    <state x="413" y="62" key="FileChooserDialogImpl" timestamp="1580737407029">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="437" y="234" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1366.728@0.0.1366.728" timestamp="1580645525841" />
-    <state x="463" y="106" key="FileChooserDialogImpl" timestamp="1580645515671">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="413" y="62" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1160@0.0.1366.728" timestamp="1580737407029" />
+    <state x="-2158" y="-125" key="SettingsEditor" timestamp="1581350969923">
+      <screen x="-2560" y="-240" width="2048" height="1112" />
     </state>
-    <state x="463" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580645515671" />
+    <state x="-2158" y="-125" key="SettingsEditor/0.0.1366.728/1366.-240.1920.1160/-2560.-240.2048.1112@-2560.-240.2048.1112" timestamp="1581350969923" />
   </component>
 </project>

@@ -1,0 +1,14 @@
+{% extends 'layout/head.html' %}
+{% block title %}RESTAURANTS{% endblock %}
+{% load static %}
+{% block breadcrumb %}
+		<nav aria-label="breadcrumb">
+  			<ol class="breadcrumb">
+    			<li class="breadcrumb-item"><a class = "lien" href="{% url 'accueil' %}">Accueil</a></li>
+    			<li class="breadcrumb-item active">RESTAURANTS</li>
+  			</ol>
+		</nav>
+		{% endblock %}
+{% block body %}
+	page des restaurants
+{% endblock %}
