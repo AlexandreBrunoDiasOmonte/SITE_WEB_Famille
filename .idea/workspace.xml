@@ -2,38 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d61ee63-943c-4d49-83be-e01417174ad2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Famille_DO/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RESTAURANTS/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RESTAURANTS/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RESTAURANTS/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RESTAURANTS/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RESTAURANTS/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RESTAURANTS/templates/RESTAURANTS/restaurants.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RESTAURANTS/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RESTAURANTS/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RESTAURANTS/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/fichiers/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/photo_alexandre_petit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Famille_DO/accueil.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/layout/head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/layout/menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/Activate.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/deactivate.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/python.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/python_d.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/pythonw_d.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Famille_DO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Famille_DO.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESTAURANTS/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Famille_DO/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Famille_DO/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Famille_DO/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Famille_DO/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESTAURANTS/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/RESTAURANTS/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
