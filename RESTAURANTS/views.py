@@ -1,7 +1,9 @@
 from django.shortcuts import render
+from .models import Restaurant
 
-
-# Create your views here.
 
 def restaurants(request):
-    return render(request, 'RESTAURANTS/restaurants.html')
+    restos = Restaurant.objects.filter(available=True)
+   # liste = "\n".join(formated_restos)
+    context = {'restos': restos}
+    return render(request, 'RESTAURANTS/restaurants.html', context)

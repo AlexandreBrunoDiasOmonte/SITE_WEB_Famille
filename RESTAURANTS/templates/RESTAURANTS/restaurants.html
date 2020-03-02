@@ -10,5 +10,12 @@
 		</nav>
 		{% endblock %}
 {% block body %}
-	page des restaurants
+	page des restaurants :
+	<ul>
+		{% for resto in restos %}
+		<li>
+			{{ resto.name }} --- {{ resto.email }}
+		</li>
+		{% endfor %}
+	</ul>
 {% endblock %}
