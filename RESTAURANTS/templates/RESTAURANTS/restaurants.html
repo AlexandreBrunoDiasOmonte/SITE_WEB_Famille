@@ -10,12 +10,20 @@
 		</nav>
 		{% endblock %}
 {% block body %}
-	page des restaurants :
-	<ul>
-		{% for resto in restos %}
-		<li>
-			{{ resto.name }} --- {{ resto.email }}
-		</li>
-		{% endfor %}
-	</ul>
+	{% for resto in restos %}
+	<span class="telechargements">
+		<button class="btn table-primary">
+			<h2>{{ resto.name }}</h2>
+			<div>
+				<img class="resto-img" src="{{ resto.image }}" width="30%" height="30%">
+			</div>
+			<div>
+				<h5>{{ resto.phone }}</h5>
+			</div>
+			<div>
+				<h4>{{ resto.ville }}</h4>
+			</div>
+		</button>
+	</span>
+	{% endfor %}
 {% endblock %}
