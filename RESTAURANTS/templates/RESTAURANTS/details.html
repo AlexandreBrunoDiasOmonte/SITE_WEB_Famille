@@ -1,0 +1,41 @@
+{% extends 'layout/head.html' %}
+{% block title %}DETAILS{% endblock %}
+{% load static %}
+{% block breadcrumb %}
+		<nav aria-label="breadcrumb">
+  			<ol class="breadcrumb">
+    			<li class="breadcrumb-item"><a class = "lien" href="{% url 'accueil' %}">Accueil</a></li>
+				<li class="breadcrumb-item"><a class="lien" href="{% url 'RESTAURANTS:restaurants' %}">RESTAURANTS</a></li>
+    			<li class="breadcrumb-item active">DETAILS</li>
+				<li class="breadcrumb-item active">{{ resto.name }}</li>
+  			</ol>
+		</nav>
+		{% endblock %}
+{% block body %}
+	{% include 'RESTAURANTS/recherche_form.html' %}
+	<div class="tableau">
+		<h2>{{ resto.name }}</h2>
+	</div>
+	<div class="btn table-primary bouton_details tableau1">
+		<img class="resto-img img-responsive" src="{{ resto.image }}" width="100%" height="100%">
+	</div>
+	<div class="tableau2">
+		<div>
+			<h4><a href="tel:{{ resto.phone }}">{{ resto.phone }}</a></h4>
+		</div>
+		<div>
+			<h4>{{ resto.ville }}</h4>
+		</div>
+		<div>
+			<h4><a href="{{ resto.website }}" target="_blank">{{ resto.website }}</a></h4>
+		</div>
+	</div>
+	<div class="tableau2">
+		<div>
+			<h4>{{ resto.adresse }} {{ resto.codePostal }}<br>{{ resto.ville }}</h4>
+		</div>
+		<div>
+			<h4><a href="mailto:{{ resto.email }}">{{ resto.email }}</a></h4>
+		</div>
+	</div>
+{% endblock %}

@@ -1,19 +1,21 @@
 {% extends 'layout/head.html' %}
-{% block title %}RESTAURANTS{% endblock %}
+{% block title %}RECHERCHE{% endblock %}
 {% load static %}
 {% block breadcrumb %}
 		<nav aria-label="breadcrumb">
   			<ol class="breadcrumb">
     			<li class="breadcrumb-item"><a class = "lien" href="{% url 'accueil' %}">Accueil</a></li>
-    			<li class="breadcrumb-item active">RESTAURANTS</li>
+				<li class="breadcrumb-item"><a class="lien" href="{% url 'RESTAURANTS:restaurants' %}">RESTAURANTS</a></li>
+    			<li class="breadcrumb-item active">RECHERCHE</li>
   			</ol>
 		</nav>
 		{% endblock %}
 {% block body %}
-	{% include 'RESTAURANTS/recherche_form.html' %}
+{% include 'RESTAURANTS/recherche_form.html' %}
+	<center><h3>{{ title }}</h3></center>
 	{% for resto in restos %}
 	<span>
-		<a href="details/{{resto.id}}">
+		<a href="../details/{{resto.id}}">
 			<button class="btn table-primary bouton">
 				<h2>{{ resto.name }}</h2>
 				<div>
