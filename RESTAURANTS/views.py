@@ -3,7 +3,7 @@ from .models import Restaurant
 
 
 def restaurants(request):
-    restos = Restaurant.objects.filter(available=True)
+    restos = Restaurant.objects.filter(available=True)[:]
     context = {'restos': restos}
     return render(request, 'RESTAURANTS/restaurants.html', context)
 

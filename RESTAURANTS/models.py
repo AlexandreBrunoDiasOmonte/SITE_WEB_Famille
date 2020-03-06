@@ -9,6 +9,7 @@ class Restaurant(models.Model):
     ville = models.CharField(max_length=200, default="Mulhouse", blank=False)
     phone = models.CharField('téléphone', max_length=12, blank=True)
     website = models.URLField('site web', blank=True)
+    websiteCourt = models.CharField(max_length=100, blank=True)
     available = models.BooleanField('disponnible', default=True)
     image = models.URLField("image", blank=True)
 

@@ -17,25 +17,19 @@
 		<h2>{{ resto.name }}</h2>
 	</div>
 	<div class="btn table-primary bouton_details tableau1">
-		<img class="resto-img img-responsive" src="{{ resto.image }}" width="100%" height="100%">
+		<img class="resto-img" src="{{ resto.image }}" width="100%" height="100%">
+	</div>
+	<br>
+	<div>
+		<h4>{{ resto.adresse }} {{ resto.codePostal }} {{ resto.ville }}</h4>
+	</div>
+	<div>
+		<h4><a href="{{ resto.website }}" target="_blank">{{ resto.website }}</a></h4>
+	</div>
+	<div>
+		<h4><a href="mailto:{{ resto.email }}">{{ resto.email }}</a></h4>
 	</div>
 	<div class="tableau2">
-		<div>
-			<h4><a href="tel:{{ resto.phone }}">{{ resto.phone }}</a></h4>
-		</div>
-		<div>
-			<h4>{{ resto.ville }}</h4>
-		</div>
-		<div>
-			<h4><a href="{{ resto.website }}" target="_blank">{{ resto.website }}</a></h4>
-		</div>
-	</div>
-	<div class="tableau2">
-		<div>
-			<h4>{{ resto.adresse }} {{ resto.codePostal }}<br>{{ resto.ville }}</h4>
-		</div>
-		<div>
-			<h4><a href="mailto:{{ resto.email }}">{{ resto.email }}</a></h4>
-		</div>
+		<h4><a href="tel:{{ resto.phone }}">{{ resto.phone }}</a></h4>
 	</div>
 {% endblock %}
