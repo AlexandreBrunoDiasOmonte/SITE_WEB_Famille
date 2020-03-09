@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d61ee63-943c-4d49-83be-e01417174ad2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/RESTAURANTS/templates/RESTAURANTS/pagination.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RESTAURANTS/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/RESTAURANTS/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RESTAURANTS/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/RESTAURANTS/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RESTAURANTS/migrations/0002_restaurant_websitecourt.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RESTAURANTS/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/RESTAURANTS/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RESTAURANTS/templates/RESTAURANTS/recherche.html" beforeDir="false" afterPath="$PROJECT_DIR$/RESTAURANTS/templates/RESTAURANTS/recherche.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RESTAURANTS/templates/RESTAURANTS/restaurants.html" beforeDir="false" afterPath="$PROJECT_DIR$/RESTAURANTS/templates/RESTAURANTS/restaurants.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RESTAURANTS/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/RESTAURANTS/views.py" afterDir="false" />
