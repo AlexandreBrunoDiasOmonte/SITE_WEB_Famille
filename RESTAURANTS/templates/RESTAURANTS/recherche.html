@@ -12,7 +12,7 @@
 		{% endblock %}
 {% block body %}
 {% include 'RESTAURANTS/recherche_form.html' %}
-	<center><h3>{{ title }}</h3></center>
+	<center><h4>{{ title }}</h4></center>
 	{% for resto in page_obj %}
 	<span>
 		<a href="../details/{{resto.id}}">

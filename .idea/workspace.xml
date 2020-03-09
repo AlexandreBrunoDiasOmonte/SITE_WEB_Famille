@@ -2,13 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d61ee63-943c-4d49-83be-e01417174ad2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/RESTAURANTS/templates/RESTAURANTS/pagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/debug_toolbar/css/print.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/debug_toolbar/css/toolbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/debug_toolbar/img/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/debug_toolbar/img/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/debug_toolbar/img/back_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/debug_toolbar/img/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/debug_toolbar/img/close_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/debug_toolbar/img/djdt_vertical.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/debug_toolbar/img/indicator.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/debug_toolbar/js/redirect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/debug_toolbar/js/toolbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/debug_toolbar/js/toolbar.timer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Famille_DO/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Famille_DO/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Famille_DO/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Famille_DO/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Famille_DO/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Famille_DO/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RESTAURANTS/templates/RESTAURANTS/recherche.html" beforeDir="false" afterPath="$PROJECT_DIR$/RESTAURANTS/templates/RESTAURANTS/recherche.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RESTAURANTS/templates/RESTAURANTS/restaurants.html" beforeDir="false" afterPath="$PROJECT_DIR$/RESTAURANTS/templates/RESTAURANTS/restaurants.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RESTAURANTS/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/RESTAURANTS/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/fichiers/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/media/fichiers/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/layout/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESTAURANTS/templates/RESTAURANTS/recherche_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/RESTAURANTS/templates/RESTAURANTS/recherche_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fichiers/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/fichiers/css/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

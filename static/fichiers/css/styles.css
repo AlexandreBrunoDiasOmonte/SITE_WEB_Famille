@@ -37,8 +37,8 @@
     border-left:3px solid #A9EAFE;
 }
 .bouton{
-    width: 25%;
-				
+    width: 30%;
+	margin-left:2%;
 }
 .images{
     float: right;
@@ -130,4 +130,38 @@
     font-family:verdana;
     box-align:center;
     text-align:center;
+}
+.tableau4{
+    box-sizing:border-box;
+    color:white;
+    border-radius:30px;
+    background-color:#26C4EC;
+    width:100%;
+    margin-bottom:15px;
+    padding:5px;
+    font-family:verdana;
+    font-weight:bold;
+    box-align:center;
+    text-align:center;
+}
+.tableau5{
+    box-sizing:border-box;
+    color:blue;
+    width:100%;
+    margin-bottom:15px;
+    padding:5px;
+    font-family:verdana;
+    font-weight:bold;
+    box-align:center;
+    text-align:center;
+}
+.bouton-pagination{
+    width:12%;
+}
+.page-bouton{
+    box-sizing:border-box;
+    color:blue;
+    background-color:white;
+    border:2px solid blue;
+    padding:5px;
 }
