@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d61ee63-943c-4d49-83be-e01417174ad2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Famille_DO/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Famille_DO/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Famille_DO/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Famille_DO/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESTAURANTS/templates/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/RESTAURANTS/templates/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESTAURANTS/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/RESTAURANTS/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESTAURANTS/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/RESTAURANTS/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fichiers/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/fichiers/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/images/photo_alexandre_petit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/menu.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +48,11 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\PROGRAMMATION\SITES_WEB\Famille_DO" />
+      <recent name="F:\PROGRAMMATION\SITES_WEB\Famille_DO\RESTAURANTS" />
+      <recent name="F:\PROGRAMMATION\SITES_WEB\Famille_DO\static\media\images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\PROGRAMMATION\SITES_WEB\Famille_DO\RESTAURANTS\templates\RESTAURANTS" />
       <recent name="F:\PROGRAMMATION\SITES_WEB\Famille_DO\RESTAURANTS\" />

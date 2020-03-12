@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from .models import Restaurant
 from django.core.paginator import Paginator
 
@@ -13,7 +13,7 @@ def restaurants(request):
 
 
 def details(request, resto_id):
-    resto = Restaurant.objects.get(pk=resto_id)
+    resto = get_object_or_404(Restaurant, pk=resto_id)
     context = {'resto': resto}
     return render(request, 'RESTAURANTS/details.html', context)
 

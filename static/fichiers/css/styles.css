@@ -38,7 +38,10 @@
 }
 .bouton{
     width: 30%;
-	margin-left:2%;
+    margin-left:2%;
+}
+.bouton_details{
+    width: 100%;
 }
 .images{
     float: right;
@@ -115,7 +118,7 @@
     background-color:#26C4EC;
     width:50%;
     margin-left:25%;
-    margin-bottom:152px;
+    margin-bottom:15px;
     padding:5px;
     font-family:verdana;
     font-weight:bold;
