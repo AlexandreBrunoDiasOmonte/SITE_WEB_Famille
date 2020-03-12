@@ -29,13 +29,13 @@ def recherche(request):
         restos = Restaurant.objects.filter(ville__icontains=query).order_by('name')
     if not restos.exists():
         restos = Restaurant.objects.filter(codePostal__icontains=query).order_by('name')
-    title = "Résultats pour la requête < %s >" % query
+    results = "Résultats pour la requête < %s >" % query
 
     paginator = Paginator(restos, 9)
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)
     context = {
         'page_obj': page_obj,
-        'title': title
+        'results': results
     }
     return render(request, 'RESTAURANTS/recherche.html', context)
